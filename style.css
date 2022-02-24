@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #23272A;
+    color: white;
+}
+.main {
+    text-align: center;
+    color: white;
+}
+.main p {
+    font-size: 1px;
+}
+
+.main img {
+    border-radius: 50%;
+}
+.main button {
+    background-color: #5865F2;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.row {
+    display: flex;
+    flex-direction: flex;
+    margin-bottom: 20px;
+}
+.we1 {
+    display: table-column;
+    margin: 50px;
+    padding: 0px;
+    width: 13%;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: auto;
+    border: 3px solid rgb(201, 212, 201);
+    padding: 10px;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar li {
+    float: right;
+    margin-left: 10px;
+}
+.navbar li a {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.navbar img {
+    float: left;
+    border-radius: 12px;
+}
+.navbar li a:hover{
+    color: #5865F2;
+    transition: 0.80s;
+}
+@media screen and (max-width: 800px) {
+    .navbar li {
+        float: left;
+    }
+    .navbar li a {
+        font-size: 15px;
+    }
+    .navbar img {
+        float: left;
+    }
+    .row {
+        display: grid;
+        row-gap: 25px;
+    }
+    .we1 {
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 10%;
+        row-gap: 0px;
+        border-radius: 12px;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
+    }
+}
