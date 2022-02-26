@@ -24,7 +24,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .info {
-    margin-top: 20px;
+    margin-top: 100px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -105,8 +105,16 @@ body {
         float: left;
     }
     .row {
-        display: grid;
-        row-gap: 25px;
+        display: table-row;
+        row-gap: 10px;
+    }
+    .we1 {
+        margin: auto;
+        width: 70%;
+        margin-left: 10%;
+        margin-right: auto;
+        border: 3px solid rgb(201, 212, 201);
+        padding: 10px;
     }
     .we1 {
         margin-top: 50px;
