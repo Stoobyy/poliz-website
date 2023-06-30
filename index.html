@@ -31,7 +31,7 @@
             <p>&zwnj;</p>
             <h1><b>SHJ Polize</b></h1>
             <h3>Moderation, Minecraft and more!</h3>
-            <button id="btn" style="background-color:orange; border-color:red; color:black" onclick="Redirect()""><b>Add to Your Server</b></button>
+            <button id="btn" style="background-color:orange; border-color:red; color:black" onclick="Redirect()"><b>Add to Your Server</b></button>
         </div>
         <!-- <div class="fe">
             <h1>FEATURES</h1>
@@ -64,6 +64,11 @@
               </footer>
         </div>
         <script src="particles.js-master/particles.js"></script>
+        <script>
+            function Redirect(){
+                windows.location.href = "https://discord.com/api/oauth2/authorize?client_id=969663219570462790&permissions=536601820243&scope=applications.commands%20bot";
+            }
+        </script>
         <script src="app.js"></script>
     </body>
 </html
