@@ -76,7 +76,7 @@ body {
 }
 .info a:hover{
     transition: 0.3s;
-    color: #cb997e;
+    color: #cb718d;
 }
 .navbar li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -91,7 +91,7 @@ body {
     border-radius: 12px;
 }
 .navbar li a:hover{
-    color: #cb997e;
+    color: #cb718d;
     transition: 0.80s;
 }
 #particles-js {
