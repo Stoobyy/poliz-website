@@ -30,7 +30,7 @@ body {
 }
 .main button {
     background-color: #5865F2;
-    border: none;
+    border: 1px solid red;
     border-radius: 12px;
     color: white;
     padding: 15px 32px;
