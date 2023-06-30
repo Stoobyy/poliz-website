@@ -40,6 +40,10 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
 .row {
     display: flex;
     flex-direction: flex;
